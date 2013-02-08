@@ -1,0 +1,76 @@
+/*Uploader css*/
+.szlider{
+    margin-top:3px;
+    width:150px;
+    height:10px;
+    border:1px solid #6d707a;
+	display:none;
+    overflow:hidden;
+	}
+.szliderbar{
+    width:37%;
+    height:15px;
+    border-right: 1px solid #000000;
+    background: #008000; }
+ .szazalek {
+    color: #000000;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: bold;
+    left: 25px;
+    position: relative;
+    top: -16px; }
+
+.xhruploader {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 7px 0;
+   text-align: center;
+   width: 150px;
+   direction: ltr;
+   position:relative;
+   overflow:hidden;
+   cursor:pointer; 
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+   }
+.xhruploader:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.xhruploader:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+.xhruploader input {
+cursor:pointer; 
+opacity: 0;
+filter: alpha(opacity = 50);
+height:100%;
+top:0;
+left:0;
+position:absolute;
+width:100%;
+}
+#xhraction{
+text-decoration:underline;
+}
+#uploadlist{
+font-size:9px;
+}
